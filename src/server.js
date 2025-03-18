@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import express from 'express'
 import { connectToDatabase, disconnectFromDatabase } from './infrastructure/database'
-import routes from './infrastructure/http/routes'
+import routes from './interfaces/routes'
 
 const app = express()
 
